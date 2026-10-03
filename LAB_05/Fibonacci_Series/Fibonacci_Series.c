@@ -2,11 +2,11 @@
 int main()
 {
     int n , num1 = 0 , num2 = 1 , nextnum ;
-    printf("Vrinda Thakur \n Enter the number of fabonacci series print");
+    printf("Vrinda Thakur \nEnter the number of fabonacci series print:");
     scanf("%d", &n);
-    printf("ibonacci series");
+    printf("Fibonacci series\n");
     for(int i = 1 ; i <= n ; ++i){
-        printf(" it is num1 %d\n", num1);
+        printf("it is num1 %d\n", num1);
         nextnum = num1 + num2 ;
         printf("it is nextnum %d\n", nextnum);
         num1 = num2;
